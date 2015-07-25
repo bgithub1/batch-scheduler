@@ -1,0 +1,18 @@
+<list>
+<!-- this test has BatchRunScheduler restart tasks after they exit -->
+	<com.billybyte.batchscheduler.BatchSchedulerParams>
+		<alias>sayHelloOnce</alias>
+		<scheduleType>SCHEDULE_AT_OFFSET_FROM_TODAY_IN_MILLS</scheduleType>
+		<restart>true</restart>
+		<classOfMain>com.billybyte.batchscheduler.testcases.SayHelloTester</classOfMain>
+		<cmdLineArgs>
+			<string>Hi there - I'm waiting 2 seconds</string>
+			<string>2000</string>
+		</cmdLineArgs>
+		<vmArgs>
+			<string>-Xmx1500m</string>
+			<string>-Xms300m</string>
+		</vmArgs>
+	</com.billybyte.batchscheduler.BatchSchedulerParams>
+   
+</list>

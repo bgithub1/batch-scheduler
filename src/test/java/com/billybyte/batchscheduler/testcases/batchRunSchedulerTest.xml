@@ -1,0 +1,28 @@
+<list>
+
+	<com.billybyte.batchscheduler.BatchSchedulerParams>
+		<alias>sayHelloOnce</alias>
+		<scheduleType>SCHEDULE_AT_OFFSET_FROM_TODAY_IN_MILLS</scheduleType>
+		<classOfMain>com.billybyte.batchscheduler.testcases.SayHelloTester</classOfMain>
+		<cmdLineArgs>
+			<string>Hi there - I'm waiting 2 seconds</string>
+			<string>2000</string>
+		</cmdLineArgs>
+		<vmArgs>
+			<string>-Xmx1500m</string>
+			<string>-Xms300m</string>
+		</vmArgs>
+		<validDays>
+			<java.lang.Integer>1</java.lang.Integer>
+			<java.lang.Integer>2</java.lang.Integer>
+			<java.lang.Integer>3</java.lang.Integer>
+			<java.lang.Integer>4</java.lang.Integer>
+			<java.lang.Integer>5</java.lang.Integer>
+			<java.lang.Integer>6</java.lang.Integer>
+			<java.lang.Integer>7</java.lang.Integer>
+		</validDays>
+		<nextScheduleInMills>5000</nextScheduleInMills> 
+	</com.billybyte.batchscheduler.BatchSchedulerParams>
+
+   
+</list>

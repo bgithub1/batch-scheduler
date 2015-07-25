@@ -1,0 +1,30 @@
+<list>
+
+	<com.billybyte.batchscheduler.BatchSchedulerParams>
+		<alias>batchRunSchedulerOfBrs</alias>
+		<scheduleType>SCHEDULE_AT_OFFSET_FROM_TODAY_IN_MILLS</scheduleType>
+		<classOfMain>com.billybyte.batchscheduler.BatchRunScheduler</classOfMain>
+		<cmdLineArgs>
+		<!-- the string tokens below are in pairs -->
+  			<string>-xml</string>
+			<string>batchRunSchedulerTestSingleRun.xml</string>
+			<string>-red</string>
+			<string>true</string>
+			<string>-clz</string>
+			<string>com.billybyte.batchscheduler.testcases.SayHelloTester</string>
+		</cmdLineArgs>
+		<vmArgs>
+		</vmArgs>
+		<validDays>
+			<java.lang.Integer>1</java.lang.Integer>
+			<java.lang.Integer>2</java.lang.Integer>
+			<java.lang.Integer>3</java.lang.Integer>
+			<java.lang.Integer>4</java.lang.Integer>
+			<java.lang.Integer>5</java.lang.Integer>
+			<java.lang.Integer>6</java.lang.Integer>
+			<java.lang.Integer>7</java.lang.Integer>
+		</validDays>
+	</com.billybyte.batchscheduler.BatchSchedulerParams>
+
+   
+</list>
