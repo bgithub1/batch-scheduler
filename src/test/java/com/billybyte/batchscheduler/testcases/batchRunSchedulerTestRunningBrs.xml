@@ -8,8 +8,10 @@
 		<!-- the string tokens below are in pairs -->
   			<string>-xml</string>
 			<string>batchRunSchedulerTestSingleRun.xml</string>
+<!--  
 			<string>-red</string>
 			<string>true</string>
+-->
 			<string>-clz</string>
 			<string>com.billybyte.batchscheduler.testcases.SayHelloTester</string>
 		</cmdLineArgs>

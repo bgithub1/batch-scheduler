@@ -38,7 +38,7 @@ public class BatchRun {
 		
 		
 		@SuppressWarnings("unchecked")
-		List<BatchRunParams> launchList = Utils.getXmlData(List.class, null, batchRunListXmlPath);
+		List<BatchRunParams> launchList = (List<BatchRunParams>)Utils.getXmlData(List.class, null, batchRunListXmlPath);
 		for(int i = 0;i<launchList.size();i++){
 			BatchRunParams bbp=launchList.get(i);
 			String className = bbp.getClassOfMain().getCanonicalName();

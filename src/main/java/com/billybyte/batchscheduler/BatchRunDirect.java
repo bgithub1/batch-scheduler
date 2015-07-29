@@ -17,7 +17,7 @@ public class BatchRunDirect {
 	public static void main(String[] args) {
 		String batchRunListXmlPath = args[0];
 		@SuppressWarnings("unchecked")
-		List<BatchRunParams> launchList = Utils.getXmlData(List.class, null, batchRunListXmlPath);
+		List<BatchRunParams> launchList = (List<BatchRunParams>)Utils.getXmlData(List.class, null, batchRunListXmlPath);
 		for(int i = 0;i<launchList.size();i++){
 			BatchRunParams brp=launchList.get(i);
 			
