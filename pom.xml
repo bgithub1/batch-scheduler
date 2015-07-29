@@ -43,11 +43,14 @@
       <scope>test</scope>
     </dependency>
 
+<!--  
  	<dependency>
 	 	<groupId>com.github.bgithub1</groupId>
 		<artifactId>collectionsstaticmethods</artifactId>
 		<version>0.1.0</version>
 	</dependency>
+-->
+
 <!-- 		<version>c57a5e1473</version -->
 
 <!--  
@@ -61,7 +64,7 @@
 	<dependency>
 	    <groupId>com.github.bgithub1</groupId>
 	    <artifactId>common-libs</artifactId>
-	    <version>0.1.0</version>
+	    <version>0.1.1</version>
 	</dependency>
  
  
