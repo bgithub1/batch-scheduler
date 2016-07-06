@@ -64,7 +64,10 @@
 	<dependency>
 	    <groupId>com.github.bgithub1</groupId>
 	    <artifactId>common-libs</artifactId>
-	    <version>0.1.8</version>
+	    <version>0.2.0</version>
+<!--  
+		<version>0.1.8</version>
+-->	    
 	</dependency>
  
  
